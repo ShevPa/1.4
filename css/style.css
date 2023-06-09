@@ -95,7 +95,7 @@ body{
     background-position: center center;       
 }  
 .menu-header__button:nth-of-type(2) .menu-header__button_image{
-    background-image: url("./image/search.svg");
+    background-image: url("/1.4/image/search.svg");
     background-repeat: no-repeat;
     background-position: center center;       
 }
