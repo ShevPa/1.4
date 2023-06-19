@@ -73,7 +73,7 @@ body{
     padding: 0;
     margin-right: 16px;
 } 
-.menu-header__button:hover .menu-header__button_image{
+.menu-header__button:hover .menu-header__button-image{
     transition: 0.5s;
     background-color: #d62258;
 }
