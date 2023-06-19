@@ -10,11 +10,11 @@
 <body>
     <header class="menu-header">
         <button type ="button" class="menu-header__button">
-            <div class="menu-header__button_image"></div>
+            <div class="menu-header__button-image"></div>
         </button>
         <img src="image/Group.svg" alt="logo" class="menu-header__logo">
         <button type ="button" class="menu-header__button">
-            <div class="menu-header__button_image"></div>
+            <div class="menu-header__button-image"></div>
         </button>
     </header>
     <main class="menu-main">
@@ -35,21 +35,24 @@
                 <div class="menu-footer__button_image"></div>
             </button> 
             <button type ="button" class="menu-footer__button">
-                <div class="menu-footer__button_image"></div>
+                <div class="menu-footer__button-image"></div>
             </button> 
             <button type ="button" class="menu-footer__button">
-                <div class="menu-footer__button_image"></div>
+                <div class="menu-footer__button-image"></div>
             </button> 
         </div>
         <div class="menu-footer__contacts">
-            <p class="menu-footer__mail">mail@cps.com</p>
-            <p class="menu-footer__phone">8 800 890 8900</p>
+            <p class="menu-footer__mail"><a class="menu-footer__mail-link" href="mailto:mail@cps.com">mail@cps.com</a></p>
+            <p class="menu-footer__phone"><a class="menu-footer__phone-link" href="tel:+78008908900"></a>8 800 890 8900</p>
         </div>
-        <ul class="menu-footer__languages">
-            <li class="menu-footer__item"> <a href="#" class="menu-footer__link">RU</a></li>
-            <li class="menu-footer__item"><a href="#" class="menu-footer__link">EN</a></li>
-            <li class="menu-footer__item"><a href="#" class="menu-footer__link">CH</a></li>
-        </ul>
+        <div class="menu-footer__languages">
+            <input type="radio" name="language" id="radio-1" value="RU" class="menu-footer__radio" checked>
+            <label for="radio-1" class="menu-footer__label">RU</label>
+            <input type="radio" name="language" id="radio-2" value="EN" class="menu-footer__radio"> 
+            <label for="radio-2" class="menu-footer__label">EN</label>
+            <input type="radio" name="language" id="radio-3" value="CH" class="menu-footer__radio">
+            <label for="radio-3" class="menu-footer__label">CH</label> 
+        </div>
 
     </footer>
 </body>
